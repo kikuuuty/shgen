@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ibl">
+      <UniqueIdentifier>{7dd40ba7-41db-4bbb-ae89-757d6efb5fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json11">
+      <UniqueIdentifier>{6180a770-6b4d-4211-b5fd-c21dde1f8abd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ibl\spherical_harmonics.cpp">
+      <Filter>Source Files\ibl</Filter>
+    </ClCompile>
+    <ClCompile Include="ibl\cubemap.cpp">
+      <Filter>Source Files\ibl</Filter>
+    </ClCompile>
+    <ClCompile Include="ibl\image.cpp">
+      <Filter>Source Files\ibl</Filter>
+    </ClCompile>
+    <ClCompile Include="json11\json11.cpp">
+      <Filter>Source Files\json11</Filter>
+    </ClCompile>
+    <ClCompile Include="fsutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ibl\image.h">
+      <Filter>Source Files\ibl</Filter>
+    </ClInclude>
+    <ClInclude Include="ibl\spherical_harmonics.h">
+      <Filter>Source Files\ibl</Filter>
+    </ClInclude>
+    <ClInclude Include="ibl\vec3.h">
+      <Filter>Source Files\ibl</Filter>
+    </ClInclude>
+    <ClInclude Include="ibl\cubemap.h">
+      <Filter>Source Files\ibl</Filter>
+    </ClInclude>
+    <ClInclude Include="json11\json11.hpp">
+      <Filter>Source Files\json11</Filter>
+    </ClInclude>
+    <ClInclude Include="fsutil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
